@@ -1,0 +1,90 @@
+.appearance {
+    display: inline-block;
+    width: 100%;
+}
+
+.list {
+    font-family: arial;
+    float: left;
+    width: 400px;
+    padding-left: 100pt;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    width: 300px;
+}
+
+.ref {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+        
+.delete_all {
+    color: #f00;
+}
+
+.note {
+    font-family: arial;
+    float: right;
+    width: 43%;
+}
+
+.form {
+    font-family: arial;
+    font-size: 16px;
+    width: 90%;
+    height: 200px;
+    resize: none;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
+body {
+    background-image: url('/pic/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a.button30 {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 1.3em;
+    height: 1.3em;
+    line-height: 1.3em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px rgba(255, 255, 255, .3);
+    font-size: 100%;
+    font-weight: 900;
+    color: #000;
+    border-radius: 100%;
+    background: rgb(144, 142, 105) linear-gradient(rgb(185, 181, 151), rgb(144, 142, 105));
+}
+#createButton {
+    font-size: 200%;
+}
+
+.button1 {
+    background-color: #ccc;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.button {
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #555555;
+    color: white;
+}
